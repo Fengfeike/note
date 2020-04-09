@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.text{
+    width: 800px;
+}
+.text textarea{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: scroll;
+    font-size: 15px;
+    color:black;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.menu-title{
+    float: left;
+    width: 800px;
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 0;
+    margin: 0;
+    background-color:lightskyblue;
+    
+}
+.menu-title li{
+    float: left;
+}
+.menu-title-items{
+    float: left;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.menu-title-items:hover{
+    background-color: gray;
+    color: #fff;
+}
+
+.menu-items{
+    list-style: none;
+    margin: 0;
+    padding: 10px 5px;
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+.menu-items-items{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.menu-items-items:hover{
+    background-color: gray;
+    color: black;
+}
+
+.font{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.fontbox{
+    position: relative;
+    top: 100px;
+    width: 400px;
+    height: 450px;
+    margin-left: 200px;
+    font-size: 12px;
+    border: 1px solid blue;
+}
+
+
+.fonttitle{
+    width: 380px;
+    height: 20px;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background-color: lightskyblue;
+    
+}
+.fonttitle-text{
+    float: left;
+    margin: 0;
+}
+.fonttitle-cbutton{
+    float: right;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.fonttitle-cbutton:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.fontmain{
+    width: 370px;
+    padding: 10px 15px;
+    float: left;
+}
+.fontmain div{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.fontmain p{
+    margin: 0;
+}
+.fontmain-family{
+    width: 150px;
+    height: 150px;
+}
+.fontmain-style{
+    width: 100px;
+    height: 150px;
+}
+.fontmain-size{
+    width: 70px;
+    height: 150px;
+}
+.fontmain-sample{
+    height: 100px;
+    width: 60px;
+}
+.fontmain-script{
+    height: 30px;
+    margin-top: 15px;
+}
+.fontmain-script span{
+    float: left;
+    margin-left: 5px;
+}
+.fontmain-script select{
+    width: 150px;
+    margin-left: 10px;
+    float: left;
+}
+
+.fontmain-box{    
+    width: 95%;
+    height: 150px;
+}
+.fontmain-list-title{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+    border-bottom: 0;
+    font-size: 12px;
+    padding:2%;
+}
+.fontmain-list{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    height: 110px;
+    overflow-y: scroll;
+    background: #fff;
+    border: 1px solid;
+    width: 100%;
+}
+.fontmain-list-item{
+    font-size: 12px;
+}
+.fontmain-list-item.use{
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+.fontfoot{
+    width: 370px;
+    height: 30px;
+    text-align: right;
+    padding: 5px 15px;
+    float: left;
+}
+.fontfoot input{
+    width: 50px;
+    margin-left: 15px;
+    background-color: lightskyblue;
+    color: #fff;
+    border: none;
+    height: 25px;
+}
+.fontfoot input:hover{
+    background-color: #fff;
+    color: white
+}
+
